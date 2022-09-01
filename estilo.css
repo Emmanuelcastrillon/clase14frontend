@@ -1,0 +1,283 @@
+body{
+    font-family:'Roboto', sans-serif;
+}
+.descuento{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 61px;
+    width: 100%;
+    background-color: #D1891C;
+    color: #000000;
+    font-size: 20px;
+    line-height: 5px;
+    padding: 20px 20px;
+}
+h1{
+    position: absolute;
+    top: 61px;
+    left: 0px;
+    width: 100%;
+    height: 162px;
+    background-color: #00669F;
+    color: #FFFFFF;
+    line-height: 120px;
+    padding: 20px 20px;
+    font-size: 50px;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 300px 0px 100px 0px;
+    justify-content: space-around;
+}
+.tarjeta1{
+    
+    height: 1100px;
+    width: 805px;
+    background-color: #F3F3F3;
+}
+.fondo1{
+    height: 400px;
+    width: 805px;
+    background-image: url('imagenes/fondobatman.png');
+    border-radius: 16px 16px 0px 0px;
+}
+.fondo2{
+    height: 400px;
+    width: 805px;
+    background-image: url('imagenes/fondo2.png');
+    border-radius: 16px 16px 0px 0px;
+}
+.fondo3{
+    height: 400px;
+    width: 805px;
+    background-image: url('imagenes/fondo3.png');
+    border-radius: 16px 16px 0px 0px;
+}
+.fondo4{
+    height: 400px;
+    width: 805px;
+    background-image: url('imagenes/fondo4.png');
+    border-radius: 16px 16px 0px 0px;
+}
+.foto1{
+    position: absolute;
+    top: 600px;
+    left: 400px;
+    height: 200px;
+    width: 200px;
+    background-image: url('imagenes/fotobatman.png');
+    background-size: cover;
+    border-radius: 100%;
+}
+.foto2{
+    position: absolute;
+    top: 600px;
+    left: 1400px;
+    height: 200px;
+    width: 200px;
+    background-image: url('imagenes/foto2.png');
+    background-size: cover;
+    border-radius: 100%;
+}
+.foto3{
+    position: absolute;
+    top: 1700px;
+    left: 400px;
+    height: 200px;
+    width: 200px;
+    background-image: url('imagenes/foto3.png');
+    background-size: cover;
+    border-radius: 100%;
+}
+.foto4{
+    position: absolute;
+    top: 1700px;
+    left: 1400px;
+    height: 200px;
+    width: 200px;
+    background-image: url('imagenes/foto4.png');
+    background-size: cover;
+    border-radius: 100%;
+}
+.leyenda1{
+    height: 400px;
+    width: 700px;
+    padding: 130px 30px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+a{
+    height: 600px;
+    width: 800px;
+    background-color: #00669F;
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 30px;
+}
+footer{
+    display: flex;
+    justify-content:space-around;
+    height: 162px;
+    width: 100%;
+    background-color: #00669F;
+    padding: 10px 30px;
+    color: #FFFFFF;
+    font-size: 40px;
+ }
+h4{
+    font-size: 70px;
+    line-height: 1px;
+}
+h3{
+    line-height: 90px;
+}
+@media(max-width: 480px){
+    .descuento{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 61px;
+        width: 380px;
+        background-color: #D1891C;
+        color: #000000;
+        font-size: 20px;
+        line-height: 5px;
+        padding: 10px 10px;
+    }  
+    h1{
+        position: absolute;
+        top: 61px;
+        left: 0px;
+        width: 380px;
+        height: 162px;
+        background-color: #00669F;
+        color: #FFFFFF;
+        line-height: 120px;
+        padding: 10px 10px;
+        font-size: 30px;
+    }
+    .tarjetas{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 300px 0px 100px 0px;
+        justify-content: space-between;
+    }
+    .tarjeta1{
+        
+        height: 800px;
+        width: 380px;
+        background-color: #F3F3F3;
+    }
+    .fondo1{
+        height: 300px;
+        width: 380px;
+        background-image: url('imagenes/fondobatman.png');
+        border-radius: 16px 16px 0px 0px;
+    }
+    .fondo2{
+        height: 300px;
+        width: 380px;
+        background-image: url('imagenes/fondo2.png');
+        border-radius: 16px 16px 0px 0px;
+    }
+    .fondo3{
+        height: 300px;
+        width: 380px;
+        background-image: url('imagenes/fondo3.png');
+        border-radius: 16px 16px 0px 0px;
+    }
+    .fondo4{
+        height: 300px;
+        width: 380px;
+        background-image: url('imagenes/fondo4.png');
+        border-radius: 16px 16px 0px 0px;
+    }
+    .foto1{
+        position: absolute;
+        top: 550px;
+        left: 140px;
+        height: 130px;
+        width: 130px;
+        background-image: url('imagenes/fotobatman.png');
+        background-size: cover;
+        border-radius: 100%;
+    }
+    .foto2{
+        position: absolute;
+        top: 1350px;
+        left: 140px;
+        height: 130px;
+        width: 130px;
+        background-image: url('imagenes/foto2.png');
+        background-size: cover;
+        border-radius: 100%;
+    }
+    .foto3{
+        position: absolute;
+        top: 2150px;
+        left: 140px;
+        height: 130px;
+        width: 130px;
+        background-image: url('imagenes/foto3.png');
+        background-size: cover;
+        border-radius: 100%;
+    }
+    .foto4{
+        position: absolute;
+        top: 2950px;
+        left: 140px;
+        height: 130px;
+        width: 130px;
+        background-image: url('imagenes/foto4.png');
+        background-size: cover;
+        border-radius: 100%;
+    }
+    .leyenda1{
+        height: 200px;
+        width: 350px;
+        padding: 130px 30px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    a{
+        height: 600px;
+        width: 500px;
+        background-color: #00669F;
+        text-decoration: none;
+        color: #F3F3F3;
+        font-size: 30px;
+}
+footer{
+    display: flex;
+    justify-content:space-around;
+    height: 162px;
+    width: 320px;
+    background-color: #00669F;
+    
+    color: #FFFFFF;
+    font-size: 10px;
+ }
+ h4{
+    font-size: 10px;
+    line-height: 1px;
+}
+h3{
+    line-height: 30px;
+}
+    
